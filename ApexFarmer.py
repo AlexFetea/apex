@@ -22,10 +22,6 @@ while True:
         time.sleep(5)
 
 
-    if pyautogui.locateOnScreen('ManuReady.png', region=(0, 538, 447, 528), grayscale=True, confidence=0.7) != None:
-         print("Waiting for game")
-         time.sleep(5)
-
 
 #done with lobby
     if pyautogui.locateOnScreen('launch.PNG', region=(885, 904, 1034, 928), grayscale=True, confidence=0.9) != None:
