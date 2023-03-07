@@ -19,7 +19,7 @@ while True:
     if pyautogui.locateOnScreen('ManuNotReady.png', region=(0, 538, 447, 528), grayscale=True, confidence=0.90) != None:
         pyautogui.moveTo(230, 950)
         pyautogui.click()
-        time.sleep(0.5)
+        time.sleep(5)
 
 
     if pyautogui.locateOnScreen('ManuReady.png', region=(0, 538, 447, 528), grayscale=True, confidence=0.7) != None:
@@ -67,7 +67,7 @@ while True:
          time.sleep(0.5)
 
 
-    if pyautogui.locateOnScreen('Contunue.PNG', region=(768, 960, 384, 66), grayscale=True, confidence=0.6) != None:
+    if pyautogui.locateOnScreen('Continue.PNG', region=(768, 960, 384, 66), grayscale=True, confidence=0.6) != None:
          keyboard.press_and_release('space')
          time.sleep(0.5)
          keyboard.press_and_release('space')
